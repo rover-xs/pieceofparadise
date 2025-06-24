@@ -378,7 +378,7 @@
                 const seconds = Math.floor((absDifference / 1000) % 60);
 
                 const format = (num) => String(num).padStart(2, '0');
-                const titleText = isFuture ? `${timer.title} (Contagem regressiva)` : `${timer.title} (Já passou)`;
+                const titleText = isFuture ? `${timer.title} (Contagem regressiva)` : `${timer.title} `;
 
                 container.innerHTML = `
                 <div class="bg-cream/70 p-6 rounded-2xl shadow-lg border border-orange-soft/20">
